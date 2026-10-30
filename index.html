@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="BITTERS 51 - Cócteles y bebidas preparadas con estilo urbano.">
+
+    <title>BITTERS 51 | Cócteles</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <a href="#inicio" class="logo">
+            BITTERS <span>51</span>
+        </a>
+
+        
+        <nav aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#bebidas">Bebidas</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <!-- PANTALLA PRINCIPAL -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-contenido">
+
+                <p class="etiqueta">
+                    COCTELERÍA • ESTILO URBANO
+                </p>
+
+                <h1>
+                    EL SABOR TIENE
+                    <span>ACTITUD.</span>
+                </h1>
+
+                <p class="descripcion">
+                    Descubre el universo de BITTERS 51.
+                    Cócteles, mezclas y experiencias
+                    con personalidad propia.
+                </p>
+
+                <a href="#bebidas" class="boton">
+                    EXPLORAR BEBIDAS
+                </a>
+
+            </div>
+
+            <div class="hero-decoracion" aria-hidden="true">
+                <span>51</span>
+            </div>
+
+        </section>
+
+
+        <!-- CATALOGO DE BEBIDAS -->
+        <section id="bebidas" class="seccion-bebidas">
+
+            <p class="etiqueta">
+                DESCUBRE NUESTRO ESTILO
+            </p>
+
+            <h2>
+                NUESTRAS <span>BEBIDAS</span>
+            </h2>
+
+            <p class="intro-bebidas">
+                Explora nuestras mezclas y descubre
+                el sabor de BITTERS 51.
+            </p>
+
+            <div class="catalogo">
+
+                <!-- MOJITO -->
+                <article class="tarjeta">
+
+                    <button
+                        type="button"
+                        class="bebida-abrir"
+                        data-bebida="mojito"
+                        aria-haspopup="dialog"
+                        aria-label="Ver ingredientes del Mojito"
+                    >
+                    <div class="foto-bebida">
+                    <img src="imagenes/mojito.jpg"
+                        alt="Cóctel Mojito"
+                        loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>MOJITO</h3>
+                    <p>
+                            Refrescante combinación de
+                            hierbabuena y limón.
+                    </p>
+                        <span class="ver-detalles">
+                            VER INGREDIENTES +
+                        </span>
+                    </div>
+                </button>
+
+                </article>
+
+
+                <!-- BLUE LAGOON -->
+                <article class="tarjeta">
+                    <button type="button" class="bebida-abrir"
+                            data-bebida="blue-lagoon"
+                            aria-haspopup="dialog"
+                            aria-label="Ver ingredientes de Blue Lagoon">
+
+                    <div class="foto-bebida">
+                        <img src="imagenes/blue-lagoon.jpg"
+                             alt="Cóctel Blue Lagoon"
+                             loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>BLUE LAGOON</h3>
+                        <p>
+                            Cóctel cítrico de color
+                            azul intenso.
+                        </p>
+                        <span class="ver-detalles">VER INGREDIENTES +</span>
+                    </div>
+
+                    </button>
+                </article>
+
+
+                <!-- DAIQUIRI -->
+                <article class="tarjeta">
+                    <button type="button" class="bebida-abrir"
+                            data-bebida="daiquiri"
+                            aria-haspopup="dialog"
+                            aria-label="Ver ingredientes de Daiquiri de fresa">
+
+                    <div class="foto-bebida">
+                        <img src="imagenes/daiquiri.jpg"
+                             alt="Daiquiri de fresa"
+                             loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>DAIQUIRI DE FRESA</h3>
+                        <p>
+                            Una mezcla frutal,
+                            dulce y refrescante.
+                        </p>
+                        <span class="ver-detalles">VER INGREDIENTES +</span>
+                    </div>
+
+                    </button>
+                </article>
+
+
+                <!-- PIÑA COLADA -->
+                <article class="tarjeta">
+                    <button type="button" class="bebida-abrir"
+                            data-bebida="pina-colada"
+                            aria-haspopup="dialog"
+                            aria-label="Ver ingredientes de Piña colada">
+
+                    <div class="foto-bebida">
+                        <img src="imagenes/pina-colada.jpg"
+                             alt="Piña colada"
+                             loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>PIÑA COLADA</h3>
+                        <p>
+                            Una combinación tropical
+                            de piña y coco.
+                        </p>
+                        <span class="ver-detalles">VER INGREDIENTES +</span>
+                    </div>
+
+                    </button>
+                </article>
+
+
+                <!-- MARGARITA -->
+                <article class="tarjeta">
+                    <button type="button" class="bebida-abrir"
+                            data-bebida="margarita"
+                            aria-haspopup="dialog"
+                            aria-label="Ver ingredientes de Margarita">
+
+                    <div class="foto-bebida">
+                        <img src="imagenes/margarita.jpg"
+                             alt="Cóctel Margarita"
+                             loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>MARGARITA</h3>
+                        <p>
+                            Un clásico con notas
+                            cítricas y refrescantes.
+                        </p>
+                        <span class="ver-detalles">VER INGREDIENTES +</span>
+                    </div>
+
+                    </button>
+                </article>
+
+
+                <!-- MARACUYA -->
+                <article class="tarjeta">
+                    <button type="button" class="bebida-abrir"
+                            data-bebida="maracuya"
+                            aria-haspopup="dialog"
+                            aria-label="Ver ingredientes de Maracuyá">
+
+                    <div class="foto-bebida">
+                        <img src="imagenes/maracuya.jpg"
+                             alt="Cóctel de maracuyá"
+                             loading="lazy">
+                    </div>
+
+                    <div class="tarjeta-contenido">
+                        <h3>MARACUYÁ</h3>
+                        <p>
+                            Sabor tropical con
+                            un toque ácido.
+                        </p>
+                        <span class="ver-detalles">VER INGREDIENTES +</span>
+                    </div>
+
+                    </button>
+                </article>
+
+            </div>
+
+        </section>
+        
+
+<!-- SOBRE BITTERS 51 -->
+<section id="nosotros" class="seccion-nosotros">
+
+    <div class="nosotros-contenido">
+
+        <p class="etiqueta">CONOCE NUESTRA ESENCIA</p>
+
+        <h2>
+            MÁS QUE BEBIDAS,
+            <span>UNA ACTITUD.</span>
+        </h2>
+
+        <p>
+            En BITTERS 51 nos apasionan las mezclas,
+            los sabores intensos y las experiencias
+            que dejan huella.
+        </p>
+
+        <p>
+            Nuestro estilo combina creatividad,
+            frescura y una identidad urbana
+            que se refleja en cada bebida.
+        </p>
+
+        <div class="nosotros-frase">
+            EL SABOR TIENE ACTITUD.
+        </div>
+
+    </div>
+
+    <div class="nosotros-decoracion" aria-hidden="true">
+        51
+    </div>
+
+</section>
+
+
+<!-- CONTACTO BITTERS 51 -->
+<section id="contacto" class="seccion-contacto">
+
+    <p class="etiqueta">CONECTA CON NOSOTROS</p>
+
+    <h2>
+        EL SABOR NOS <span>CONECTA.</span>
+    </h2>
+
+    <p class="contacto-descripcion">
+        Descubre nuestras novedades, conoce nuestras
+        bebidas y comunícate con BITTERS 51
+        a través de nuestros canales oficiales.
+    </p>
+
+    <div class="contacto-opciones">
+
+        <!-- INSTAGRAM -->
+        <a
+            class="contacto-tarjeta"
+            href="https://www.instagram.com/bitters_51"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visitar Instagram de BITTERS 51"
+        >
+            <span class="contacto-icono" aria-hidden="true">
+                ◎
+            </span>
+
+            <h3>INSTAGRAM</h3>
+
+            <p>@bitters_51</p>
+
+            <span class="contacto-accion">
+                VISITAR PERFIL
+            </span>
+        </a>
+
+        <!-- WHATSAPP -->
+        <a
+            class="contacto-tarjeta"
+            href="https://wa.me/593963798327"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contactar a BITTERS 51 por WhatsApp"
+        >
+            <span class="contacto-icono" aria-hidden="true">
+                ✆
+            </span>
+
+            <h3>WHATSAPP</h3>
+
+            <p>+593 96 379 8327</p>
+
+            <span class="contacto-accion">
+                INICIAR CONVERSACIÓN
+            </span>
+        </a>
+
+    </div>
+
+    <p class="contacto-nota">
+        Emprendimiento digital • Atención mediante
+        nuestros canales oficiales
+    </p>
+
+</section>
+
+
+<!-- VENTANA DE DETALLES DE BEBIDAS -->
+<dialog id="modal-bebida" class="modal-bebida"
+        aria-labelledby="modal-titulo">
+
+    <button
+        type="button"
+        id="cerrar-modal"
+        class="cerrar-modal"
+        aria-label="Cerrar detalles"
+    >
+        &times;
+    </button>
+
+    <div class="modal-contenido">
+
+        <img
+            id="modal-imagen"
+            src="imagenes/mojito.jpg"
+            alt="Cóctel Mojito"
+        >
+
+        <div class="modal-informacion">
+
+            <p class="etiqueta">DESCUBRE EL SABOR</p>
+
+            <h2 id="modal-titulo">MOJITO</h2>
+
+            <p id="modal-descripcion">
+                Refrescante combinación de
+                hierbabuena y limón.
+            </p>
+
+            <h3>INGREDIENTES</h3>
+
+            <ul id="modal-ingredientes">
+                <li>Ron blanco</li>
+                <li>Hierbabuena</li>
+                <li>Limón</li>
+                <li>Azúcar</li>
+                <li>Soda</li>
+                <li>Hielo</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</dialog>
+
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+        <p>
+            © <span id="anio"></span> BITTERS 51
+        </p>
+
+        <p>
+            Diseño web por Anarchi
+        </p>
+
+    </footer>
+
+</body>
+</html>
