@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anarchi-bit.github.io/bitters51/sitemap.xml
